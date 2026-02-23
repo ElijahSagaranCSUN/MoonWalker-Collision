@@ -53,3 +53,17 @@ This project aims to improve and further Digital Twin Interoperability by explor
 4. Run the scripts above and press play on NVIDIA Omniverse
 ## Unity
 ## HSML API
+1. Open 2 Ubuntu Terminals to run the hsml_api and HSML-Form-Website:
+2. In **Terminal 1**, go to the `hsml_api` directory and start the internal services:
+   ```bash
+   cd hsml_api
+   docker-compose up
+3. In **Terminal 2**, go to the `HSML-Form-Website` directory and create/activate the virtual environment (only create it if you have not created it before), then run the app:
+   ```bash
+   cd HSML-Form-Website
+
+   # Only run this the first time (if venv does not already exist)
+   python3 -m venv venv
+
+   source venv/bin/activate
+   python3 app.py
