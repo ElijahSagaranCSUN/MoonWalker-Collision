@@ -10,9 +10,9 @@ This project aims to improve and further Digital Twin Interoperability by explor
 1. Computer specifications
 
 ## HSML API
-1.Docker — Used to run the HSML API’s internal services.
-2.MySQL (internal to HSML API) — Used by the HSML API for validation/verification data storage (not accessed directly by the simulations).
-3.Kafka (internal to HSML API) — Used by the HSML API for validation/verification message streaming (producer/consumer).
+1. Docker — Used to run the HSML API’s internal services.
+2. MySQL (internal to HSML API) — Used by the HSML API for validation/verification data storage (not accessed directly by the simulations).
+3. Kafka (internal to HSML API) — Used by the HSML API for validation/verification message streaming (producer/consumer).
 
 # Required Scripts
 ## NVIDIA Omniverse
@@ -27,8 +27,8 @@ This project aims to improve and further Digital Twin Interoperability by explor
 3. Lunar Surface: Asset for DT Lunar Surface Exploration.
 
 ## HSML API
-1.hsml_api: Runs validation/verification and acts as the main endpoint both simulation platforms connect to. It receives real-time rover movement/physics data and routes it through the API’s internal services (including Kafka) for processing.
-2.HSML-Form-Website: Used to register Spatial Web entities (e.g., rovers, agents, users, organizations) so they can be recognized and managed by the HSML system.
+1. hsml_api: Runs validation/verification and acts as the main endpoint both simulation platforms connect to. It receives real-time rover movement/physics data and routes it through the API’s internal services (including Kafka) for processing.
+2. HSML-Form-Website: Used to register Spatial Web entities (e.g., rovers, agents, users, organizations) so they can be recognized and managed by the HSML system.
 
 # Required USD/FBX files
 ## NVIDIA Omniverse
