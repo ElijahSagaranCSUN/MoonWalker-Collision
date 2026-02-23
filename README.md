@@ -25,4 +25,10 @@ This project aims to improve and further Digital Twin Interoperability by explor
 
 # Required USD/FBX files
 ## NVIDIA Omniverse
-1. 
+1. Viper Substance File (1).fbx
+2. 4WD_Contrl.usd
+3. CADREDEMO.usd
+4. MAINDEMO.usd
+5. Shackleton Ridge 300x300 v4 -001.usd
+## Unity
+1. fill out
