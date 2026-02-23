@@ -7,7 +7,9 @@ This project aims to improve and further Digital Twin Interoperability by explor
  2. Python 3.12+
  3. Python libraries: omniverse_kit, requests, pxr, charset_normalizer, idna, urllib, usd core
 ## Unity
-1. Computer specifications
+ 1. Computer specifications outlined by Unity: [Unity Requirements](https://docs.unity3d.com/2022.2/Documentation/Manual/system-requirements.html)
+ 2. C#
+ 3. VSCode
 
 ## HSML API
 1. Docker — Used to run the HSML API’s internal services.
