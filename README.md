@@ -20,7 +20,10 @@ This project aims to improve and further Digital Twin Interoperability by explor
 4. rover_generalizer_final.py: takes in a rover prim and generalizes it for Omniverse hosting
 5. collision_HSML.py: handles collision detection and hosting switch for rover.
 ## Unity
-1. fill out
+1. Viper: Asset with Mesh, Collider, & Rigidbody functionality.
+2. Cadre: Asset with Mesh. Collider and Rigidbody created on collision only.
+3. Lunar Surface: Asset for DT Lunar Surface Exploration.
+
 ## HSML API
 
 # Required USD/FBX files
