@@ -39,3 +39,15 @@ This project aims to improve and further Digital Twin Interoperability by explor
 5. Shackleton Ridge 300x300 v4 -001.usd
 ## Unity
 1. fill out
+
+# Usage
+## NVIDIA Omniverse
+1. Open up NVIDIA Omniverse
+2. Run rover_generalizier.py to generalize the rover stage tree structure
+3. Open 3 command prompts, one for each of the following scripts:
+    - CadreAOmniAPIJSON.py
+    - CadreAOmni_ConsumerAPIJSON.py
+    - ViperAOmniAPIJSON.py
+4. Run the scripts above and press play on NVIDIA Omniverse
+## Unity
+## HSML API
