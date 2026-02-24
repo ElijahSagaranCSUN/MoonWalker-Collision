@@ -53,7 +53,7 @@ This project aims to improve and further Digital Twin Interoperability by explor
 4. Run the scripts above and press play on NVIDIA Omniverse
 ## Unity
 ## HSML API
-1. Make sure to edit env. files to correct configuration of MySQL, and Kafka
+1. Make sure to edit .env in HSML-Form-Website files and authetntication_kafka_producer.py and authoritzation_kafka_consumer.py in hsml_api respectively to correct configuration of MySQL, and Kafka
 2. Open Docker Desktop
 3. Open 2 Ubuntu Terminals to run the hsml_api and HSML-Form-Website:
 4. In **Terminal 1**, go to the `hsml_api` directory and start the internal services:
