@@ -66,4 +66,4 @@ This project aims to improve and further Digital Twin Interoperability by explor
    python3 -m venv venv
 
    source venv/bin/activate
-   python3 app.py
+   flask run --host=0.0.0.0 --port=5000
