@@ -65,6 +65,6 @@ This project aims to improve and further Digital Twin Interoperability by explor
 
    docker build -t hsml-form .
 
-   docker run --rm -p 5000:5000 hsml-form
+   docker run -p 5000:5000 hsml-form
 
  5. Now Docker Containers are in Docker so they can be run from inside Docker next time
