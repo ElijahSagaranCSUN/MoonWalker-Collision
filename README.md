@@ -53,17 +53,18 @@ This project aims to improve and further Digital Twin Interoperability by explor
 4. Run the scripts above and press play on NVIDIA Omniverse
 ## Unity
 ## HSML API
-1. Open 2 Ubuntu Terminals to run the hsml_api and HSML-Form-Website:
-2. In **Terminal 1**, go to the `hsml_api` directory and start the internal services:
+1. Open Docker Desktop
+2. Open 2 Ubuntu Terminals to run the hsml_api and HSML-Form-Website:
+3. In **Terminal 1**, go to the `hsml_api` directory and start the internal services:
    ```bash
    cd hsml_api
    docker-compose up
-3. In **Terminal 2**, go to the `HSML-Form-Website` directory and create/activate the virtual environment (only create it if you have not created it before), then run the app:
+4. In **Terminal 2**, go to the `HSML-Form-Website` directory and start the from app via Docker:
    ```bash
    cd HSML-Form-Website
 
-   # Only run this the first time (if venv does not already exist)
-   python3 -m venv venv
+   docker build -t hsml-form .
 
-   source venv/bin/activate
-   flask run --host=0.0.0.0 --port=5000
+   docker run --rm -p 5000:5000 hsml-form
+
+ 5. Now Docker Containers are in Docker so they can be run from inside Docker next time
