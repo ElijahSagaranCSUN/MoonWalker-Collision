@@ -5,6 +5,7 @@ layout: default
 <nav>
 	<a href="{{ site.baseurl }}/">Home</a>
 	<a href="{{ site.baseurl }}/about.html">About</a>
+	<a href="{{ site.baseurl }}/technologies.html">Technologies</a>
 </nav>
 
 ## **Group Members**
