@@ -1,5 +1,4 @@
 title: "MoonWalker Project: Digital Twins"
-theme: jekyll-theme-midnight
 
 baseurl: "/MoonWalker-Collision"
 url: "https://elijahsagarancsun.github.io"
@@ -26,3 +25,7 @@ images:
   Elijah: "/assets/images/elijah.jpg"
   Logo: "/assets/images/logo.png"
   asset1: "/assets/images/asset1.png"
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
