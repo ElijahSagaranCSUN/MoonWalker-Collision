@@ -2,13 +2,14 @@
 title: Skills
 layout: default
 ---
-
 <nav>
 	<a href="{{ site.baseurl }}/">Home</a>
 	<a href="{{ site.baseurl }}/about.html">About</a>
 	<a href="{{ site.baseurl }}/technologies.html">Technologies</a>
 	<a href="{{ site.baseurl }}/skills.html">Skills</a>
+	<a href="{{ site.baseurl }}/demo.html">Demo</a>
 </nav>
+
 
 {% include site_header.html %}
 
