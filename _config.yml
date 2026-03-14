@@ -1,5 +1,5 @@
 title: "MoonWalker Project: Digital Twins"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-midnight
 
 baseurl: "/MoonWalker-Collision"
 url: "https://elijahsagarancsun.github.io"
@@ -23,6 +23,6 @@ csun:
 images:
   Rowel: "/assets/images/rowel.jpeg"
   Martin: "/assets/images/martin.jpg"
-  Elijah: "/assets/images/elijah.jpg"
+  Elijah: "/assets/images/elijah.JPG"
   Logo: "/assets/images/logo.png"
   asset1: "/assets/images/asset1.png"
