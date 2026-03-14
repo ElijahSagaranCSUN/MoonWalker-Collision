@@ -6,7 +6,9 @@ layout: default
 	<a href="{{ site.baseurl }}/">Home</a>
 	<a href="{{ site.baseurl }}/about.html">About</a>
 	<a href="{{ site.baseurl }}/technologies.html">Technologies</a>
+	<a href="{{ site.baseurl }}/skills.html">Skills</a>
 </nav>
+
 
 ## **Technologies**
 This project uses several technologies to support simulation interoperability and real time communication:

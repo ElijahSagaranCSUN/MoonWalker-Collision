@@ -6,7 +6,9 @@ layout: default
 	<a href="{{ site.baseurl }}/">Home</a>
 	<a href="{{ site.baseurl }}/about.html">About</a>
 	<a href="{{ site.baseurl }}/technologies.html">Technologies</a>
+	<a href="{{ site.baseurl }}/skills.html">Skills</a>
 </nav>
+
 
 ## **Group Members**
 - **Elijah Sagaran**: 
@@ -24,5 +26,3 @@ layout: default
 	- Implemented MySQL authentication and authorization for secure communication
 	- Handled internal Kafka server and feedback channel during collisions
 	- **LinkedIn**: <a href="{{site.socials['RowelLinkedIn']}}"> linkedin.com/in/rowelespejo </a>
-
-[Go to About Page]({{site.baseurl}}/about.html)
