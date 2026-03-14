@@ -12,6 +12,7 @@ layout: default
 
 ## **Group Members**
 - **Elijah Sagaran**: 
+	<img src="{{site.baseurl}}{{site.images.Elijah}}">
 	- Worked on the Omniverse side for the Cadre rover
 	- Developed required collision detection and hosting switch scripts for Omniverse
 	- Handled hosting and consuming scripts for Omniverse
