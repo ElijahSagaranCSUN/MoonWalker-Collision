@@ -1,0 +1,75 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+.site-banner {
+  margin-bottom: 2rem;
+}
+
+.site-branding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.site-logo {
+  width: 90px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.site-subtitle {
+  margin: 0.25rem 0 0 0;
+}
+
+.site-nav {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-asset-wrap {
+  margin: 1rem 0 2rem 0;
+}
+
+.site-asset {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.member-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.member-photo {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.member-content h3 {
+  margin-top: 0;
+}
+
+.site-footer-custom {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #666;
+  text-align: center;
+}
+
+.site-footer-custom p {
+  margin: 0.35rem 0;
+}
