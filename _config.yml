@@ -1,0 +1,24 @@
+theme: jekyll-theme-slate
+title: "MoonWalker Project: Digital Twins"
+
+author:
+    name: 
+
+nav:
+  - text: Home
+    href: /
+  - text: Group Members
+    href: /group-members
+  - text: Introduction
+    href: /introduction
+  - text: Technologies
+    href: /technologies
+  - text: Skills
+    href: /skills
+
+socials:
+    ElijahLinkedIn: https://www.linkedin.com/in/elijahsagaran/
+    MartinLinkedIn: https://www.linkedin.com/in/martindn-ha/
+
+group_members:
+    - name: Elijah Sagaran
