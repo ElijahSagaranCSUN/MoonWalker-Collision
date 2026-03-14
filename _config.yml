@@ -7,8 +7,8 @@ author:
 nav:
   - text: Home
     href: /
-  - text: Group Members
-    href: /group-members
+  - text: About
+    href: /about
   - text: Introduction
     href: /introduction
   - text: Technologies
@@ -19,6 +19,7 @@ nav:
 socials:
     ElijahLinkedIn: https://www.linkedin.com/in/elijahsagaran/
     MartinLinkedIn: https://www.linkedin.com/in/martindn-ha/
+    RowelLinkedIn: https://www.linkedin.com/in/rowelespejo/
 
 group_members:
     - name: Elijah Sagaran
