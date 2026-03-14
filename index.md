@@ -26,8 +26,8 @@ layout: default
     <h3>Martin Ha</h3>
     <ul>
       <li>Worked on the Unity side for the Viper rover</li>
-      <li>Developed required collision detection and hosting switch scripts for Unity-side interoperability support</li>
-      <li>Handled hosting and consuming scripts for Omniverse/Unity communication</li>
+      <li>Developed required collision detection and hosting switch scripts for Omniverse</li>
+      <li>Handled hosting and consuming scripts for Omniverse</li>
       <li><strong>LinkedIn:</strong> <a href="{{ site.socials.MartinLinkedIn }}">linkedin.com/in/martindn-ha/</a></li>
     </ul>
   </div>
@@ -38,9 +38,9 @@ layout: default
   <div class="member-content">
     <h3>Rowel Espejo</h3>
     <ul>
-      <li>Worked on the HSML API, allowing the two simulation platforms to connect</li>
+      <li>Worked on the HSML API, allowing for the two simulation platforms to connect</li>
       <li>Implemented MySQL authentication and authorization for secure communication</li>
-      <li>Handled the internal Kafka server and feedback channel during collisions</li>
+      <li>Handled internal Kafka server and feedback channel during collisions</li>
       <li><strong>LinkedIn:</strong> <a href="{{ site.socials.RowelLinkedIn }}">linkedin.com/in/rowelespejo</a></li>
     </ul>
   </div>

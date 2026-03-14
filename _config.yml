@@ -7,16 +7,6 @@ url: "https://elijahsagarancsun.github.io"
 author:
   name: ""
 
-nav:
-  - text: Home
-    href: /
-  - text: About
-    href: /about.html
-  - text: Technologies
-    href: /technologies.html
-  - text: Skills
-    href: /skills.html
-
 socials:
   ElijahLinkedIn: "https://www.linkedin.com/in/elijahsagaran/"
   MartinLinkedIn: "https://www.linkedin.com/in/martindn-ha/"

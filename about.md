@@ -2,6 +2,7 @@
 title: About
 layout: default
 ---
+
 <nav>
 	<a href="{{ site.baseurl }}/">Home</a>
 	<a href="{{ site.baseurl }}/about.html">About</a>
