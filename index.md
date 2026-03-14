@@ -2,28 +2,48 @@
 title: Home
 layout: default
 ---
-<nav>
-	<a href="{{ site.baseurl }}/">Home</a>
-	<a href="{{ site.baseurl }}/about.html">About</a>
-	<a href="{{ site.baseurl }}/technologies.html">Technologies</a>
-	<a href="{{ site.baseurl }}/skills.html">Skills</a>
-</nav>
 
+{% include site_header.html %}
 
-## **Group Members**
-- **Elijah Sagaran**: 
-	<img src="{{site.baseurl}}{{site.images.Elijah}}">
-	- Worked on the Omniverse side for the Cadre rover
-	- Developed required collision detection and hosting switch scripts for Omniverse
-	- Handled hosting and consuming scripts for Omniverse
-	- **LinkedIn**: <a href="{{site.socials['ElijahLinkedIn']}}"> linkedin.com/in/elijahsagaran/ </a>
-- **Martin Ha**:
-	- Worked on the Unity side for the Viper rover
-	- Developed required collision detection and hosting switch scripts for Omniverse
-	- Handled hosting and consuming scripts for Omniverse
-	- **LinkedIn**: <a href="{{site.socials['MartinLinkedIn']}}"> linkedin.com/in/martindn-ha/ </a>
-- **Rowel Espejo**:
-	- Worked on the HSML API, allowing for the two simulation platforms to connect
-	- Implemented MySQL authentication and authorization for secure communication
-	- Handled internal Kafka server and feedback channel during collisions
-	- **LinkedIn**: <a href="{{site.socials['RowelLinkedIn']}}"> linkedin.com/in/rowelespejo </a>
+## Group Members
+
+<div class="member-card">
+  <img src="{{ site.images.Elijah | relative_url }}" alt="Elijah Sagaran" class="member-photo">
+  <div class="member-content">
+    <h3>Elijah Sagaran</h3>
+    <ul>
+      <li>Worked on the Omniverse side for the Cadre rover</li>
+      <li>Developed required collision detection and hosting switch scripts for Omniverse</li>
+      <li>Handled hosting and consuming scripts for Omniverse</li>
+      <li><strong>LinkedIn:</strong> <a href="{{ site.socials.ElijahLinkedIn }}">linkedin.com/in/elijahsagaran/</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="member-card">
+  <img src="{{ site.images.Martin | relative_url }}" alt="Martin Ha" class="member-photo">
+  <div class="member-content">
+    <h3>Martin Ha</h3>
+    <ul>
+      <li>Worked on the Unity side for the Viper rover</li>
+      <li>Developed required collision detection and hosting switch scripts for Unity-side interoperability support</li>
+      <li>Handled hosting and consuming scripts for Omniverse/Unity communication</li>
+      <li><strong>LinkedIn:</strong> <a href="{{ site.socials.MartinLinkedIn }}">linkedin.com/in/martindn-ha/</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="member-card">
+  <img src="{{ site.images.Rowel | relative_url }}" alt="Rowel Espejo" class="member-photo">
+  <div class="member-content">
+    <h3>Rowel Espejo</h3>
+    <ul>
+      <li>Worked on the HSML API, allowing the two simulation platforms to connect</li>
+      <li>Implemented MySQL authentication and authorization for secure communication</li>
+      <li>Handled the internal Kafka server and feedback channel during collisions</li>
+      <li><strong>LinkedIn:</strong> <a href="{{ site.socials.RowelLinkedIn }}">linkedin.com/in/rowelespejo</a></li>
+    </ul>
+  </div>
+</div>
+
+{% include footer.html %}

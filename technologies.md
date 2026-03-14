@@ -9,6 +9,7 @@ layout: default
 	<a href="{{ site.baseurl }}/skills.html">Skills</a>
 </nav>
 
+{% include site_header.html %}
 
 ## **Technologies**
 This project uses several technologies to support simulation interoperability and real time communication:
@@ -23,3 +24,5 @@ This project uses several technologies to support simulation interoperability an
 - **Tailscale**: used to enable secure remote access and collaboration for the HSML API
 
 Together, these technologies made it possible to connect the two simulation environments and exchange data reliably and efficiently
+
+{% include footer.html %}
